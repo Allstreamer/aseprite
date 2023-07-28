@@ -28,7 +28,7 @@ jobs:
         target: skia/
     - name: Download Depedancy
       shell: bash
-      run: ls -la && cd skia && ls -la && 7z x Skia.zip && cd ..
+      run: ls -la && cd skia && ls -la && 7z x Skia-Windows-Release-x64.zip && cd ..
     - name: Generating Makefiles
       shell: bash
       run: |
